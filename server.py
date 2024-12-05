@@ -6,7 +6,7 @@ from socketserver import ThreadingMixIn
 import threading
 
 hostName = "0.0.0.0"
-serverPort = 80
+serverPort = 3000
 
 class Handler(BaseHTTPRequestHandler):
   def do_GET(self):
